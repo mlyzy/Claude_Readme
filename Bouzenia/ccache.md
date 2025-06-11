@@ -41,7 +41,7 @@ mkdir build && cd build
 
 ### 2.2 Configure Build
 ```bash
-cmake -G Ninja ..
+cmake -G Ninja ../ccache
 ```
 **Purpose**: Generate build files using CMake with Ninja generator
 **Result**: Successfully generated build configuration
